@@ -1,0 +1,678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7642E0681AFD9A11002B9293 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7642E0671AFD9A11002B9293 /* AppDelegate.swift */; };
+		7642E06A1AFD9A11002B9293 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7642E0691AFD9A11002B9293 /* ViewController.swift */; };
+		7642E06D1AFD9A11002B9293 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7642E06B1AFD9A11002B9293 /* Main.storyboard */; };
+		7642E06F1AFD9A11002B9293 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7642E06E1AFD9A11002B9293 /* Images.xcassets */; };
+		7642E0721AFD9A11002B9293 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7642E0701AFD9A11002B9293 /* LaunchScreen.xib */; };
+		7642E07E1AFD9A12002B9293 /* _22_Apple_Watch_Tossing_CoinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7642E07D1AFD9A12002B9293 /* _22_Apple_Watch_Tossing_CoinTests.swift */; };
+		7642E0911AFD9A23002B9293 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7642E0901AFD9A23002B9293 /* InterfaceController.swift */; };
+		7642E0931AFD9A23002B9293 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7642E0921AFD9A23002B9293 /* NotificationController.swift */; };
+		7642E0951AFD9A23002B9293 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7642E0941AFD9A23002B9293 /* Images.xcassets */; };
+		7642E0991AFD9A24002B9293 /* 022-Apple-Watch-Tossing-Coin WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 7642E0981AFD9A24002B9293 /* 022-Apple-Watch-Tossing-Coin WatchKit App.app */; };
+		7642E0A11AFD9A24002B9293 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7642E09F1AFD9A24002B9293 /* Interface.storyboard */; };
+		7642E0A31AFD9A24002B9293 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7642E0A21AFD9A24002B9293 /* Images.xcassets */; };
+		7642E0A61AFD9A24002B9293 /* 022-Apple-Watch-Tossing-Coin WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7642E08B1AFD9A23002B9293 /* 022-Apple-Watch-Tossing-Coin WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7642E0781AFD9A12002B9293 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7642E05A1AFD9A11002B9293 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7642E0611AFD9A11002B9293;
+			remoteInfo = "022-Apple-Watch-Tossing-Coin";
+		};
+		7642E09A1AFD9A24002B9293 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7642E05A1AFD9A11002B9293 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7642E0971AFD9A24002B9293;
+			remoteInfo = "022-Apple-Watch-Tossing-Coin WatchKit App";
+		};
+		7642E0A41AFD9A24002B9293 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7642E05A1AFD9A11002B9293 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7642E08A1AFD9A23002B9293;
+			remoteInfo = "022-Apple-Watch-Tossing-Coin WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7642E0AD1AFD9A24002B9293 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7642E0A61AFD9A24002B9293 /* 022-Apple-Watch-Tossing-Coin WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7642E0621AFD9A11002B9293 /* 022-Apple-Watch-Tossing-Coin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "022-Apple-Watch-Tossing-Coin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7642E0661AFD9A11002B9293 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7642E0671AFD9A11002B9293 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7642E0691AFD9A11002B9293 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7642E06C1AFD9A11002B9293 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7642E06E1AFD9A11002B9293 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7642E0711AFD9A11002B9293 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7642E0771AFD9A12002B9293 /* 022-Apple-Watch-Tossing-CoinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "022-Apple-Watch-Tossing-CoinTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7642E07C1AFD9A12002B9293 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7642E07D1AFD9A12002B9293 /* _22_Apple_Watch_Tossing_CoinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _22_Apple_Watch_Tossing_CoinTests.swift; sourceTree = "<group>"; };
+		7642E08B1AFD9A23002B9293 /* 022-Apple-Watch-Tossing-Coin WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "022-Apple-Watch-Tossing-Coin WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7642E08E1AFD9A23002B9293 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7642E08F1AFD9A23002B9293 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		7642E0901AFD9A23002B9293 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		7642E0921AFD9A23002B9293 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		7642E0941AFD9A23002B9293 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7642E0981AFD9A24002B9293 /* 022-Apple-Watch-Tossing-Coin WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "022-Apple-Watch-Tossing-Coin WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7642E09E1AFD9A24002B9293 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7642E0A01AFD9A24002B9293 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		7642E0A21AFD9A24002B9293 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7642E05F1AFD9A11002B9293 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7642E0741AFD9A12002B9293 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7642E0881AFD9A23002B9293 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7642E0591AFD9A11002B9293 = {
+			isa = PBXGroup;
+			children = (
+				7642E0641AFD9A11002B9293 /* 022-Apple-Watch-Tossing-Coin */,
+				7642E07A1AFD9A12002B9293 /* 022-Apple-Watch-Tossing-CoinTests */,
+				7642E08C1AFD9A23002B9293 /* 022-Apple-Watch-Tossing-Coin WatchKit Extension */,
+				7642E09C1AFD9A24002B9293 /* 022-Apple-Watch-Tossing-Coin WatchKit App */,
+				7642E0631AFD9A11002B9293 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7642E0631AFD9A11002B9293 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7642E0621AFD9A11002B9293 /* 022-Apple-Watch-Tossing-Coin.app */,
+				7642E0771AFD9A12002B9293 /* 022-Apple-Watch-Tossing-CoinTests.xctest */,
+				7642E08B1AFD9A23002B9293 /* 022-Apple-Watch-Tossing-Coin WatchKit Extension.appex */,
+				7642E0981AFD9A24002B9293 /* 022-Apple-Watch-Tossing-Coin WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7642E0641AFD9A11002B9293 /* 022-Apple-Watch-Tossing-Coin */ = {
+			isa = PBXGroup;
+			children = (
+				7642E0671AFD9A11002B9293 /* AppDelegate.swift */,
+				7642E0691AFD9A11002B9293 /* ViewController.swift */,
+				7642E06B1AFD9A11002B9293 /* Main.storyboard */,
+				7642E06E1AFD9A11002B9293 /* Images.xcassets */,
+				7642E0701AFD9A11002B9293 /* LaunchScreen.xib */,
+				7642E0651AFD9A11002B9293 /* Supporting Files */,
+			);
+			path = "022-Apple-Watch-Tossing-Coin";
+			sourceTree = "<group>";
+		};
+		7642E0651AFD9A11002B9293 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7642E0661AFD9A11002B9293 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7642E07A1AFD9A12002B9293 /* 022-Apple-Watch-Tossing-CoinTests */ = {
+			isa = PBXGroup;
+			children = (
+				7642E07D1AFD9A12002B9293 /* _22_Apple_Watch_Tossing_CoinTests.swift */,
+				7642E07B1AFD9A12002B9293 /* Supporting Files */,
+			);
+			path = "022-Apple-Watch-Tossing-CoinTests";
+			sourceTree = "<group>";
+		};
+		7642E07B1AFD9A12002B9293 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7642E07C1AFD9A12002B9293 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7642E08C1AFD9A23002B9293 /* 022-Apple-Watch-Tossing-Coin WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7642E0901AFD9A23002B9293 /* InterfaceController.swift */,
+				7642E0921AFD9A23002B9293 /* NotificationController.swift */,
+				7642E0941AFD9A23002B9293 /* Images.xcassets */,
+				7642E08D1AFD9A23002B9293 /* Supporting Files */,
+			);
+			path = "022-Apple-Watch-Tossing-Coin WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		7642E08D1AFD9A23002B9293 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7642E08E1AFD9A23002B9293 /* Info.plist */,
+				7642E08F1AFD9A23002B9293 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7642E09C1AFD9A24002B9293 /* 022-Apple-Watch-Tossing-Coin WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				7642E09F1AFD9A24002B9293 /* Interface.storyboard */,
+				7642E0A21AFD9A24002B9293 /* Images.xcassets */,
+				7642E09D1AFD9A24002B9293 /* Supporting Files */,
+			);
+			path = "022-Apple-Watch-Tossing-Coin WatchKit App";
+			sourceTree = "<group>";
+		};
+		7642E09D1AFD9A24002B9293 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7642E09E1AFD9A24002B9293 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7642E0611AFD9A11002B9293 /* 022-Apple-Watch-Tossing-Coin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7642E0811AFD9A12002B9293 /* Build configuration list for PBXNativeTarget "022-Apple-Watch-Tossing-Coin" */;
+			buildPhases = (
+				7642E05E1AFD9A11002B9293 /* Sources */,
+				7642E05F1AFD9A11002B9293 /* Frameworks */,
+				7642E0601AFD9A11002B9293 /* Resources */,
+				7642E0AD1AFD9A24002B9293 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7642E0A51AFD9A24002B9293 /* PBXTargetDependency */,
+			);
+			name = "022-Apple-Watch-Tossing-Coin";
+			productName = "022-Apple-Watch-Tossing-Coin";
+			productReference = 7642E0621AFD9A11002B9293 /* 022-Apple-Watch-Tossing-Coin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7642E0761AFD9A12002B9293 /* 022-Apple-Watch-Tossing-CoinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7642E0841AFD9A12002B9293 /* Build configuration list for PBXNativeTarget "022-Apple-Watch-Tossing-CoinTests" */;
+			buildPhases = (
+				7642E0731AFD9A12002B9293 /* Sources */,
+				7642E0741AFD9A12002B9293 /* Frameworks */,
+				7642E0751AFD9A12002B9293 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7642E0791AFD9A12002B9293 /* PBXTargetDependency */,
+			);
+			name = "022-Apple-Watch-Tossing-CoinTests";
+			productName = "022-Apple-Watch-Tossing-CoinTests";
+			productReference = 7642E0771AFD9A12002B9293 /* 022-Apple-Watch-Tossing-CoinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7642E08A1AFD9A23002B9293 /* 022-Apple-Watch-Tossing-Coin WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7642E0AA1AFD9A24002B9293 /* Build configuration list for PBXNativeTarget "022-Apple-Watch-Tossing-Coin WatchKit Extension" */;
+			buildPhases = (
+				7642E0871AFD9A23002B9293 /* Sources */,
+				7642E0881AFD9A23002B9293 /* Frameworks */,
+				7642E0891AFD9A23002B9293 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7642E09B1AFD9A24002B9293 /* PBXTargetDependency */,
+			);
+			name = "022-Apple-Watch-Tossing-Coin WatchKit Extension";
+			productName = "022-Apple-Watch-Tossing-Coin WatchKit Extension";
+			productReference = 7642E08B1AFD9A23002B9293 /* 022-Apple-Watch-Tossing-Coin WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		7642E0971AFD9A24002B9293 /* 022-Apple-Watch-Tossing-Coin WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7642E0A71AFD9A24002B9293 /* Build configuration list for PBXNativeTarget "022-Apple-Watch-Tossing-Coin WatchKit App" */;
+			buildPhases = (
+				7642E0961AFD9A24002B9293 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "022-Apple-Watch-Tossing-Coin WatchKit App";
+			productName = "022-Apple-Watch-Tossing-Coin WatchKit App";
+			productReference = 7642E0981AFD9A24002B9293 /* 022-Apple-Watch-Tossing-Coin WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7642E05A1AFD9A11002B9293 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = shomigo.com;
+				TargetAttributes = {
+					7642E0611AFD9A11002B9293 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					7642E0761AFD9A12002B9293 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 7642E0611AFD9A11002B9293;
+					};
+					7642E08A1AFD9A23002B9293 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					7642E0971AFD9A24002B9293 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = 7642E05D1AFD9A11002B9293 /* Build configuration list for PBXProject "022-Apple-Watch-Tossing-Coin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7642E0591AFD9A11002B9293;
+			productRefGroup = 7642E0631AFD9A11002B9293 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7642E0611AFD9A11002B9293 /* 022-Apple-Watch-Tossing-Coin */,
+				7642E0761AFD9A12002B9293 /* 022-Apple-Watch-Tossing-CoinTests */,
+				7642E08A1AFD9A23002B9293 /* 022-Apple-Watch-Tossing-Coin WatchKit Extension */,
+				7642E0971AFD9A24002B9293 /* 022-Apple-Watch-Tossing-Coin WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7642E0601AFD9A11002B9293 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7642E06D1AFD9A11002B9293 /* Main.storyboard in Resources */,
+				7642E0721AFD9A11002B9293 /* LaunchScreen.xib in Resources */,
+				7642E06F1AFD9A11002B9293 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7642E0751AFD9A12002B9293 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7642E0891AFD9A23002B9293 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7642E0951AFD9A23002B9293 /* Images.xcassets in Resources */,
+				7642E0991AFD9A24002B9293 /* 022-Apple-Watch-Tossing-Coin WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7642E0961AFD9A24002B9293 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7642E0A11AFD9A24002B9293 /* Interface.storyboard in Resources */,
+				7642E0A31AFD9A24002B9293 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7642E05E1AFD9A11002B9293 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7642E06A1AFD9A11002B9293 /* ViewController.swift in Sources */,
+				7642E0681AFD9A11002B9293 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7642E0731AFD9A12002B9293 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7642E07E1AFD9A12002B9293 /* _22_Apple_Watch_Tossing_CoinTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7642E0871AFD9A23002B9293 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7642E0931AFD9A23002B9293 /* NotificationController.swift in Sources */,
+				7642E0911AFD9A23002B9293 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7642E0791AFD9A12002B9293 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7642E0611AFD9A11002B9293 /* 022-Apple-Watch-Tossing-Coin */;
+			targetProxy = 7642E0781AFD9A12002B9293 /* PBXContainerItemProxy */;
+		};
+		7642E09B1AFD9A24002B9293 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7642E0971AFD9A24002B9293 /* 022-Apple-Watch-Tossing-Coin WatchKit App */;
+			targetProxy = 7642E09A1AFD9A24002B9293 /* PBXContainerItemProxy */;
+		};
+		7642E0A51AFD9A24002B9293 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7642E08A1AFD9A23002B9293 /* 022-Apple-Watch-Tossing-Coin WatchKit Extension */;
+			targetProxy = 7642E0A41AFD9A24002B9293 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7642E06B1AFD9A11002B9293 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7642E06C1AFD9A11002B9293 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7642E0701AFD9A11002B9293 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7642E0711AFD9A11002B9293 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		7642E09F1AFD9A24002B9293 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7642E0A01AFD9A24002B9293 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7642E07F1AFD9A12002B9293 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7642E0801AFD9A12002B9293 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7642E0821AFD9A12002B9293 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = "022-Apple-Watch-Tossing-Coin/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7642E0831AFD9A12002B9293 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = "022-Apple-Watch-Tossing-Coin/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7642E0851AFD9A12002B9293 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "022-Apple-Watch-Tossing-CoinTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/022-Apple-Watch-Tossing-Coin.app/022-Apple-Watch-Tossing-Coin";
+			};
+			name = Debug;
+		};
+		7642E0861AFD9A12002B9293 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "022-Apple-Watch-Tossing-CoinTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/022-Apple-Watch-Tossing-Coin.app/022-Apple-Watch-Tossing-Coin";
+			};
+			name = Release;
+		};
+		7642E0A81AFD9A24002B9293 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = _22_Apple_Watch_Tossing_Coin_WatchKit_Extension;
+				INFOPLIST_FILE = "022-Apple-Watch-Tossing-Coin WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		7642E0A91AFD9A24002B9293 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				IBSC_MODULE = _22_Apple_Watch_Tossing_Coin_WatchKit_Extension;
+				INFOPLIST_FILE = "022-Apple-Watch-Tossing-Coin WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		7642E0AB1AFD9A24002B9293 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "022-Apple-Watch-Tossing-Coin WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7642E0AC1AFD9A24002B9293 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "022-Apple-Watch-Tossing-Coin WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7642E05D1AFD9A11002B9293 /* Build configuration list for PBXProject "022-Apple-Watch-Tossing-Coin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7642E07F1AFD9A12002B9293 /* Debug */,
+				7642E0801AFD9A12002B9293 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7642E0811AFD9A12002B9293 /* Build configuration list for PBXNativeTarget "022-Apple-Watch-Tossing-Coin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7642E0821AFD9A12002B9293 /* Debug */,
+				7642E0831AFD9A12002B9293 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7642E0841AFD9A12002B9293 /* Build configuration list for PBXNativeTarget "022-Apple-Watch-Tossing-CoinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7642E0851AFD9A12002B9293 /* Debug */,
+				7642E0861AFD9A12002B9293 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7642E0A71AFD9A24002B9293 /* Build configuration list for PBXNativeTarget "022-Apple-Watch-Tossing-Coin WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7642E0A81AFD9A24002B9293 /* Debug */,
+				7642E0A91AFD9A24002B9293 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7642E0AA1AFD9A24002B9293 /* Build configuration list for PBXNativeTarget "022-Apple-Watch-Tossing-Coin WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7642E0AB1AFD9A24002B9293 /* Debug */,
+				7642E0AC1AFD9A24002B9293 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7642E05A1AFD9A11002B9293 /* Project object */;
+}
